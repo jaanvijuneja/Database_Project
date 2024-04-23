@@ -1,0 +1,127 @@
+﻿PROG8081 Section 3
+Mini Project SWC_DB
+ 
+Jaanvi Jaanvi, Zainab el Bukhatwa, Youyuan Zhang, Ravi Jha (Observer), Marina Paskal
+ 
+Apr  9 2024 10:35PM
+ 
+*** Create SWC_DB ***
+Remove SWC_DB if it exists. Create SWC_DB.
+Nonqualified transactions are being rolled back. Estimated rollback completion: 0%.
+Nonqualified transactions are being rolled back. Estimated rollback completion: 100%.
+*** Create new SWC_DB ***
+*** Us SWC_DB ***
+*** Create PartTypes table ***
+*** Create BundleBrand table ***
+*** Create BundleType table ***
+*** Create Suppliers table ***
+*** Create Bundles table ***
+*** Create Parts table ***
+*** Create Purchasers table ***
+*** Create Purchases table ***
+*** Create BundleParts table ***
+*** Create Notification table
+*** Insert data into SWC_DB ***
+Insert Data into BundleType table.
+
+(2 rows affected)
+Insert Data into BundleBrand table.
+
+(2 rows affected)
+Insert Data into PartTypes table.
+
+(6 rows affected)
+Insert Data into Suppliers table.
+
+(5 rows affected)
+Insert Data into Purchaser table.
+
+(4 rows affected)
+Insert Data into Bundles table.
+
+(8 rows affected)
+Insert Data into Parts table.
+
+(14 rows affected)
+BundleID
+-----------
+5
+7
+
+(2 rows affected)
+
+PartID
+-----------
+1
+
+(1 row affected)
+
+PartID
+-----------
+3
+
+(1 row affected)
+
+BundleID
+-----------
+6
+8
+
+(2 rows affected)
+
+PartID
+-----------
+5
+
+(1 row affected)
+
+PartID
+-----------
+6
+
+(1 row affected)
+
+Prepare Data for Purchases table.
+
+(18 rows affected)
+Insert more Data for Purchases table.
+
+(4 rows affected)
+Insert Data into BundleParts table.
+
+(4 rows affected)
+Test Question 10 View to Display all purchase details with extended amount
+PartNumber                                                                                           SupplierName                                                                                                             PartTypeName                                       PartDescription                                                                                                                                                                                                                                                 FirstName                                          PurchaseDate PartUnitPrice                           Qty         Extended_Amount
+---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- ------------ --------------------------------------- ----------- ---------------------------------------
+DL1010                                                                                               Dell                                                                                                                     Desktop                                            Dell Optiplex 1010                                                                                                                                                                                                                                              Joey                                               2022-10-31   40.00                                   25          1000.00
+DL1010                                                                                               Dell                                                                                                                     Desktop                                            Dell Optiplex 1010                                                                                                                                                                                                                                              Joey                                               2022-10-31   40.00                                   25          1000.00
+DLM190                                                                                               Dell                                                                                                                     Monitor                                            Dell 19-inch Monitor                                                                                                                                                                                                                                            Joey                                               2022-10-31   35.00                                   25          875.00
+DLM190                                                                                               Dell                                                                                                                     Monitor                                            Dell 19-inch Monitor                                                                                                                                                                                                                                            Joey                                               2022-10-31   35.00                                   25          875.00
+HP800                                                                                                HP                                                                                                                       Desktop                                            HP EliteDesk 800G1                                                                                                                                                                                                                                              May                                                2022-11-20   200.00                                  20          4000.00
+HP800                                                                                                HP                                                                                                                       Desktop                                            HP EliteDesk 800G1                                                                                                                                                                                                                                              May                                                2022-11-20   200.00                                  20          4000.00
+HPM270                                                                                               HP                                                                                                                       Monitor                                            HP 27-inch Monitor                                                                                                                                                                                                                                              May                                                2022-11-20   120.00                                  20          2400.00
+HPM270                                                                                               HP                                                                                                                       Monitor                                            HP 27-inch Monitor                                                                                                                                                                                                                                              May                                                2022-11-20   120.00                                  20          2400.00
+SM330                                                                                                Samsung                                                                                                                  Tablet                                             7” Android Tablet                                                                                                                                                                                                                                               Troy                                               2022-11-30   110.00                                  10          1100.00
+HP800                                                                                                HP                                                                                                                       Desktop                                            HP EliteDesk 800G1                                                                                                                                                                                                                                              Troy                                               2022-12-20   200.00                                  100         20000.00
+HPM270                                                                                               HP                                                                                                                       Monitor                                            HP 27-inch Monitor                                                                                                                                                                                                                                              Troy                                               2022-12-20   120.00                                  100         12000.00
+DL1010                                                                                               Dell                                                                                                                     Desktop                                            Dell Optiplex 1010                                                                                                                                                                                                                                              Vinh                                               2022-11-05   40.00                                   25          1000.00
+DLM190                                                                                               Dell                                                                                                                     Monitor                                            Dell 19-inch Monitor                                                                                                                                                                                                                                            Vinh                                               2022-11-05   35.00                                   25          875.00
+DL1010                                                                                               Dell                                                                                                                     Desktop                                            Dell Optiplex 1010                                                                                                                                                                                                                                              Vinh                                               2022-12-05   40.00                                   25          1000.00
+DLM190                                                                                               Dell                                                                                                                     Monitor                                            Dell 19-inch Monitor                                                                                                                                                                                                                                            Vinh                                               2022-12-05   35.00                                   25          875.00
+DL1010                                                                                               Dell                                                                                                                     Desktop                                            Dell Optiplex 1010                                                                                                                                                                                                                                              Vinh                                               2022-12-15   40.00                                   50          2000.00
+DLM190                                                                                               Dell                                                                                                                     Monitor                                            Dell 19-inch Monitor                                                                                                                                                                                                                                            Vinh                                               2022-12-15   35.00                                   50          1750.00
+HP800                                                                                                HP                                                                                                                       Desktop                                            HP EliteDesk 800G1                                                                                                                                                                                                                                              Vinh                                               2022-12-15   200.00                                  40          8000.00
+HPM270                                                                                               HP                                                                                                                       Monitor                                            HP 27-inch Monitor                                                                                                                                                                                                                                              Vinh                                               2022-12-15   120.00                                  40          4800.00
+
+(19 rows affected)
+
+Test Question 11_A DesktopBundleTotalCost view
+BundleID    total_cost
+----------- ---------------------------------------
+1           75.00
+2           320.00
+
+(2 rows affected)
+
+
+Completion time: 2024-04-09T22:35:45.4368917-04:00
